@@ -138,7 +138,7 @@ import (
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/curse" // 骂人
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_reply" 
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_reply"
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
@@ -201,7 +201,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 874586729)
+	sus = append(sus, 874586729)
 	// sus = append(sus, 87654321)
 
 	if *runcfg != "" {
